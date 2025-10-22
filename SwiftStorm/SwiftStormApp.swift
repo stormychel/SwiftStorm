@@ -7,11 +7,18 @@
 
 import SwiftUI
 import CoreData
+import InsightKit
+
+let logger = InsightCenter.shared
 
 @main
 struct SwiftStormApp: App {
     let persistenceController = PersistenceController.shared
 
+    init() {
+        logger.info("SwiftStormApp.init()")
+    }
+    
     var body: some Scene {
         WindowGroup {
             ContentView()

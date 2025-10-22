@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		D921A3A52EA94E7F00C2FE45 /* InsightKit in Frameworks */ = {isa = PBXBuildFile; productRef = D921A3A42EA94E7F00C2FE45 /* InsightKit */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		D921A36F2EA9180200C2FE45 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -65,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D921A3A52EA94E7F00C2FE45 /* InsightKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,6 +130,7 @@
 			);
 			name = SwiftStorm;
 			packageProductDependencies = (
+				D921A3A42EA94E7F00C2FE45 /* InsightKit */,
 			);
 			productName = SwiftStorm;
 			productReference = D921A35A2EA9180000C2FE45 /* SwiftStorm.app */;
@@ -208,6 +214,9 @@
 			);
 			mainGroup = D921A3512EA9180000C2FE45;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				D921A3A32EA94E7F00C2FE45 /* XCLocalSwiftPackageReference "../InsightKit" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = D921A35B2EA9180000C2FE45 /* Products */;
 			projectDirPath = "";
@@ -630,6 +639,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		D921A3A32EA94E7F00C2FE45 /* XCLocalSwiftPackageReference "../InsightKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../InsightKit;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D921A3A42EA94E7F00C2FE45 /* InsightKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = InsightKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D921A3522EA9180000C2FE45 /* Project object */;
 }
