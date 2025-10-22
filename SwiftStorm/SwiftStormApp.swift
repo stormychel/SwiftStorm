@@ -16,7 +16,7 @@ struct SwiftStormApp: App {
     let persistenceController = PersistenceController.shared
 
     init() {
-        logger.info("SwiftStormApp.init()")
+        logger.info("SwiftStormApp.init() - InsightCenter log directory: \(logger.logDirectory)")
     }
     
     var body: some Scene {
